@@ -54,6 +54,6 @@ public class ProductBasket {
                 .flatMap(List::stream)
                 .mapToLong(p -> p.isSpecial() ? 1 : 0)
                 .sum();
-        System.out.println("Специальные товаров: " + specialCount);
+        System.out.println("Специальные товары: " + specialCount);
     }
 }

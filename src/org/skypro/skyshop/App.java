@@ -21,7 +21,7 @@ public class App {
     }
 
     public static void demoHomework1() {
-        System.out.println("=== ДОМАШКА 1 ===");
+        System.out.println("=== ДОМАШКА  ===");
         ProductBasket basket = new ProductBasket();
 
         // Добавление
